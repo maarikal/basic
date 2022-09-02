@@ -9,7 +9,7 @@ public class Ex5 {
         int seconds = 60;
 
         int secondsInYear = days * hours * minutes * seconds;
-        System.out.println("WITH INT - There are " + secondsInYear + " seconds in a year.");
+        System.out.println("WITH INT ITEMS - There are " + secondsInYear + " seconds in a year.");
 
         System.out.println("ONLY WITH CALCULATION - There are " + (365 * 24 * 60 * 60) + " seconds in a year.");
     }
