@@ -59,5 +59,9 @@ public class Ex4 {
         container.addSuitcase(georgesCase);
 
         System.out.println(container);
+
+        System.out.println("----Exercise 4.7 -----");
+        System.out.println("There are the following things in the container suitcases:");
+        container.printThings();
     }
 }
