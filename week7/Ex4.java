@@ -63,5 +63,21 @@ public class Ex4 {
         System.out.println("----Exercise 4.7 -----");
         System.out.println("There are the following things in the container suitcases:");
         container.printThings();
+
+        System.out.println("----Exercise 4.8 -----");
+        Container container1 = new Container(1000);
+        addSuitcasesFullOfBricks(container1);
+        System.out.println(container1);
+    }
+
+    public static void addSuitcasesFullOfBricks(Container container1) {
+        // adding 100 suitcases with one brick in each
+        for (int i = 1; i <= 100; i++) {
+            Suitcase suitcase = new Suitcase(100);
+            Thing brick = new Thing("Brick", i);
+            suitcase.addThing(brick);
+
+            container1.addSuitcase(suitcase);
+        }
     }
 }
