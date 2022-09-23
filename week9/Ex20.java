@@ -18,15 +18,16 @@ public class Ex20 {
         ten.off();
         System.out.println(ten.isOn());
 
-        System.out.println("---Exercise 20.2------");
+       System.out.println("---Exercise 20.2------");
         Sensor kumpula = new Thermometer();
         kumpula.on();
         System.out.println("the temperature in Kumpula is "+kumpula.measure() + " degrees");
-        kumpula.off();
-        System.out.println("ifhe thermometer is of then temperature in Kumpula is "+kumpula.measure() + " degrees");
+        // panin harjutuse 20.3 jaoks kinni, muidu see ei tööta
+        // kumpula.off();
+        // System.out.println("ifhe thermometer is of then temperature in Kumpula is "+kumpula.measure() + " degrees"); */
 
 
-        /* System.out.println("---Exercise 20.3------");
+        System.out.println("---Exercise 20.3------");
         Sensor kumpula1 = new Thermometer();
         kumpula1.on();
         System.out.println("the temperature in Kumpula is "+kumpula1.measure() + " degrees");
@@ -41,6 +42,5 @@ public class Ex20 {
 
         helsinkiArea.on();
         System.out.println("the temperature in Helsinki area is "+helsinkiArea.measure() + " degrees");
-*/
     }
 }
