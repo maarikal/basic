@@ -26,7 +26,7 @@ public class Ex20 {
         System.out.println("ifhe thermometer is of then temperature in Kumpula is "+kumpula.measure() + " degrees");
 
 
-        System.out.println("---Exercise 20.3------");
+        /* System.out.println("---Exercise 20.3------");
         Sensor kumpula1 = new Thermometer();
         kumpula1.on();
         System.out.println("the temperature in Kumpula is "+kumpula1.measure() + " degrees");
@@ -41,6 +41,6 @@ public class Ex20 {
 
         helsinkiArea.on();
         System.out.println("the temperature in Helsinki area is "+helsinkiArea.measure() + " degrees");
-
+*/
     }
 }
