@@ -1,6 +1,7 @@
 package week9.measurement;
 
 public class ConstantSensor implements Sensor{
+    private boolean isOn;
     private int measuredValue;
 
     public ConstantSensor(int measuredValue) {
@@ -18,7 +19,7 @@ public class ConstantSensor implements Sensor{
     }
 
     @Override
-    public void off()  throws IllegalStateException {
+    public void off()  {
 
     }
 
