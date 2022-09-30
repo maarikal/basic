@@ -1,6 +1,6 @@
 package org.thoughts.on.java.coffee;
 
-import weekOOP.CoffeeMachine.src.main.*;
+import weekOOP_Coffee.CoffeeMachine.src.main.*;
 
 import java.util.HashMap;
 import java.util.Map;
