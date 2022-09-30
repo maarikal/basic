@@ -29,7 +29,7 @@ public class HealthyBurger extends Hamburger {
     @Override
     public String itemizeHamburger() {
         double totalPrice = super.price + super.addition1Price + super.addition2Price + super.addition3Price + super.addition4Price + this.healthyExtra1Price + this.healthyExtra2Price;
-        String text = df.format(totalPrice)  ;
-        return text ;
+        String text = df.format(totalPrice) ;
+        return text;
     }
 }
