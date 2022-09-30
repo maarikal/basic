@@ -30,6 +30,6 @@ public class HealthyBurger extends Hamburger {
     public String itemizeHamburger() {
         double totalPrice = super.price + super.addition1Price + super.addition2Price + super.addition3Price + super.addition4Price + this.healthyExtra1Price + this.healthyExtra2Price;
         String text = df.format(totalPrice) ;
-        return text;
+        return text ;
     }
 }
